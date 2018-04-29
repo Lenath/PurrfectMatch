@@ -16,6 +16,10 @@ html{
 	text-shadow: 0px 4px 3px rgba(0, 0, 0, .6),
 				 0px 8px 13px rgba(0, 0, 0, .3);
 }
+#content2{
+	text-align: center;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, .3);
+}
 
 h1 {
 	color: white;
@@ -41,8 +45,15 @@ hr{
 }
 .info-about{
 	background-color: rgba(252, 252, 252, .7);
-	margin-top: 10vh;
+	margin-top: 10%;
 	padding: 40px 70px;
-	height: 90vh;
+	height:100%;
 	font-size: 1.5em;
+}
+
+.bg-kittens{
+	min-height: 100vh;
+	background: url(img/bg-img-2.jpg);
+	background-size: cover;
+	background-position: center;
 }
