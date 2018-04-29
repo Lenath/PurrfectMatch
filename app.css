@@ -53,6 +53,13 @@ hr{
 
 .bg-kittens{
 	min-height: 100vh;
+	background: url(img/bg-img-3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.bg-contact{
+	min-height: 100vh;
 	background: url(img/bg-img-2.jpg);
 	background-size: cover;
 	background-position: center;
