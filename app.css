@@ -3,10 +3,11 @@ body{
 	background-size: cover;
 	background-position: center;
 	font-family: 'Lato', sans-serif;
+	
 }
 
 html{
-	height: 100%;
+	min-height: 100%;
 }
 
 #content{
@@ -29,4 +30,19 @@ hr{
 	width: 400px;
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	max-width: 90%;
+}
+
+.bg-about{
+	min-height: 100vh;
+	background: url(img/bg-img-1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.info-about{
+	background-color: rgba(252, 252, 252, .7);
+	margin-top: 10vh;
+	padding: 40px 70px;
+	height: 90vh;
+	font-size: 1.5em;
 }
