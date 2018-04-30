@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 	<link rel="icon" type="image/png" href="img/ico.png" sizes="16x16">
     <link rel="icon" type="image/png" href="img/ico.png" sizes="32x32">
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top">
@@ -48,24 +49,30 @@
 					<div class="col-lg-12">
 						<div class="info-about">
 							<h2 style="text-align: center;">Find your soul mate!</h2>
-							<hr>
+							<hr class="hello-line-2">
+							<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate repudiandae ipsa, odio, nam natus a culpa praesentium deleniti unde aspernatur itaque laborum magni, similique autem incidunt accusantium assumenda quod laboriosam.
+							</p>
+
+							<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, veritatis laborum reiciendis quae impedit ab dolorum, doloremque inventore praesentium dolorem animi ex nam aut incidunt, sunt quam necessitatibus! Repudiandae, enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, veritatis laborum reiciendis quae impedit ab dolorum, doloremque inventore praesentium dolorem animi ex nam aut incidunt, sunt quam necessitatibus! Repudiandae, enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, veritatis laborum reiciendis quae impedit ab dolorum, doloremque inventore praesentium dolorem animi ex nam aut incidunt, sunt quam necessitatibus! Repudiandae, enim.
+							</p>
+
 							<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate repudiandae ipsa, odio, nam natus a culpa praesentium deleniti unde aspernatur itaque laborum magni, similique autem incidunt accusantium assumenda quod laboriosam.
 							</p>
 
 							<div class="row text-center" style="padding-bottom: 10px;">	
-								<div class="col-lg-4"><img class="img-fluid img-thumbnail" src="img/cat-1.jpg" alt="">Meet Caleb!</div>
-								<div class="col-lg-4"><img class="img-fluid img-thumbnail" src="img/cat-2.jpg" alt="">Meet Pumpky!</div>
-								<div class="col-lg-4"><img class="img-fluid img-thumbnail" src="img/cat-3.jpg" alt="">Meet Rita!</div>
+								<div class="col-lg-4"><img class="img-fluid img-thumbnail" src="img/cat-1.jpg" alt=""><p>Meet Caleb!</p></div>
+								<div class="col-lg-4"><img class="img-fluid img-thumbnail" src="img/cat-2.jpg" alt=""><p>Meet Pumpky!</p></div>
+								<div class="col-lg-4"><img class="img-fluid img-thumbnail" src="img/cat-3.jpg" alt=""><p>Meet Rita!</p></div>
 							</div>
 							<div class="row text-center" style="padding-bottom: 10px;">	
-								<div class="col-lg-4"><img class="img-fluid img-thumbnail" src="img/cat-4.jpg" alt="">Meet Josh!</div>
-								<div class="col-lg-4"><img class="img-fluid img-thumbnail" src="img/cat-5.jpg" alt="">Meet Lily!</div>
-								<div class="col-lg-4"><img class="img-fluid img-thumbnail" src="img/cat-6.jpg" alt="">Meet Grand!</div>
+								<div class="col-lg-4"><img class="img-fluid img-thumbnail" src="img/cat-4.jpg" alt=""><p>Meet Josh!</p></div>
+								<div class="col-lg-4"><img class="img-fluid img-thumbnail" src="img/cat-5.jpg" alt=""><p>Meet Lily!</p></div>
+								<div class="col-lg-4"><img class="img-fluid img-thumbnail" src="img/cat-6.jpg" alt=""><p>Meet Grand!</p></div>
 							</div>
 							<div class="row text-center" style="padding-bottom: 10px;">	
-								<div class="col-lg-4"><img class="img-fluid img-thumbnail" src="img/cat-7.jpg" alt="">Meet Niko!</div>
-								<div class="col-lg-4"><img class="img-fluid img-thumbnail" src="img/cat-8.jpg" alt="">Meet Simba!</div>
-								<div class="col-lg-4"><img class="img-fluid img-thumbnail" src="img/cat-9.jpg" alt="">Meet Forty!</div>
+								<div class="col-lg-4"><img class="img-fluid img-thumbnail" src="img/cat-7.jpg" alt=""><p>Meet Niko!</p></div>
+								<div class="col-lg-4"><img class="img-fluid img-thumbnail" src="img/cat-8.jpg" alt=""><p>Meet Simba!</p></div>
+								<div class="col-lg-4"><img class="img-fluid img-thumbnail" src="img/cat-9.jpg" alt=""><p>Meet Forty!</p></div>
 							</div>
 							<div id="content2">
 								<h2 style="text-align: center;">Make an appointment at our Adoption Center!</h2>
@@ -82,12 +89,26 @@
 		</div>	
 	</section>
 	
-
+	
 	<script
 	  src="https://code.jquery.com/jquery-2.2.4.min.js"
 	  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
 	  crossorigin="anonymous"> 	
 	</script>
+	<script src="jquery.viewportchecker.min.js"></script> <!-- -->
 	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="bower_components/scrollreveal/dist/scrollreveal.min.js"></script><!-- -->
+	<script>
+    window.sr = ScrollReveal();
+    sr.reveal('img',  {
+        reset: false,
+        delay: 600,
+        distance: 0
+    });
+    sr.reveal('p, h2, button', {
+        reset: false,
+        delay: 600
+    });
+	</script><!-- -->
 </body>
 </html>
