@@ -64,3 +64,74 @@ hr{
 	background-size: cover;
 	background-position: center;
 }
+
+.heading-primary{
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-delay: .5s;
+	animation-timing-function: ease-out;
+	animation-fill-mode: backwards;
+}
+
+.heading-secondary{
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	animation-delay: 1s;
+	animation-fill-mode: backwards;
+}
+
+.hello-line{
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	animation-delay: 1.5s;
+	animation-fill-mode: backwards;
+}
+
+.btn-anim{
+	animation-name: moveInUp;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	animation-delay: 2s;
+	animation-fill-mode: backwards;
+}
+@keyframes moveInLeft{
+	0%{
+		opacity: 0;
+		transform: translateX(-10rem) ;
+	}
+	80%{
+		transform: translateX(1rem);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes fadeIn{
+	0%{
+		opacity: 1;
+		
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 0;
+		;
+	}
+}
+
+@keyframes moveInUp{
+	0%{
+		opacity: 0;
+		transform: translateY(3rem);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
