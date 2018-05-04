@@ -7,6 +7,22 @@ body{
 	
 }
 
+footer{
+	background-color: #bc437a;
+	color: white;
+	padding: 20px 0px;
+}
+
+.afooter{
+	color: white;
+}
+a.afooter:hover,
+a.afooter:focus {
+  color: #999;
+  text-decoration: none ;
+}
+}
+
 html{
 	min-height: 100%;
 }
